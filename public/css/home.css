@@ -1,0 +1,68 @@
+.home__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.home__main {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.home__main__article {
+    width: 100%;
+}
+
+.home__main__article img {
+    width: 100%;
+}
+
+.home__main__article--description{
+    margin: 20px 0;
+}
+
+.home__main__article--description a{
+    background-color: orangered;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* aside | tutoriales*/
+
+.home__aside__section h3 {
+    background-color: #ffffff;
+    border: 1px solid #acd8e6;
+    padding: 10px;
+}
+
+.home__aside__section__article {
+    background-color: #ffffff;
+    border: 1px solid #acd8e6;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+/* TABLET */
+@media (min-width:481px) {
+
+    .home__box{
+       
+        padding: 0 20px;
+    }
+    .home__main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .home__main__article {
+        width: 49%;
+    }
+}
